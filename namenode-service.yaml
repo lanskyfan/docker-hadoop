@@ -18,5 +18,6 @@ spec:
       targetPort: 9000
   selector:
     io.kompose.service: namenode
+  type: LoadBalancer
 status:
   loadBalancer: {}
